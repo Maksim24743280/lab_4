@@ -1,0 +1,41 @@
+#Скомпилированные классы
+out/
+bin/
+build/
+target/
+*.class
+
+#IDE / редакторы
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+.project
+.classpath
+.settings/
+
+#Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.orig
+
+#Бинарные файлы данных (генерируются при запуске)
+data/*.bin
+
+#Maven / Gradle (на всякий случай)
+.mvn/
+.gradle/
+gradle-wrapper.jar
+
+#Локальные настройки
+*.local
+.env
