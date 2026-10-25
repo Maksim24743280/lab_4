@@ -1,5 +1,4 @@
 import exceptions.InvalidFigureFormatException;
-import exceptions.InvalidParameterException;
 import geometry2d.Figure;
 import geometry3d.Cylinder;
 import storage.BinaryFigureStorage;
@@ -112,7 +111,7 @@ public class Main {
                 System.out.println("Основание: " + cylinder.getBase());
                 System.out.println("Высота:    " + cylinder.getHeight());
                 System.out.printf("Объём:     %.4f%n", cylinder.volume());
-            } catch (InvalidParameterException e) {
+            } catch (exceptions.InvalidFigureParameterException e) {
                 System.err.println("Не удалось создать цилиндр: " + e.getMessage());
             }
         }
